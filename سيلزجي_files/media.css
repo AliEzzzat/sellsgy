@@ -1,0 +1,199 @@
+/*Start block1*/
+
+@media (max-width:1199px) {
+    /*Start block1*/
+
+    .block2-head {
+        font-size: 24px;
+    }
+
+    .block2-p {
+        font-size: 20px;
+    }
+
+
+    .block1-container {
+        margin: 70px auto 40px;
+    }
+    /* .form {
+        width: 82%;
+    } */
+    .form-group label {
+        font-size: 14px;
+    }
+    .form-control-input {
+        font-size: 14px;
+        height: 38px;
+    }
+    select.form-control-input {
+        height: calc(2.25rem + 5px) !important;
+    }
+    .form-call {
+        font-size: 33px;
+        line-height: 1.4;
+        padding: 1px 0px 16px;
+    }
+    .block4-head {
+        font-size: 28px;
+    }
+
+
+}
+
+@media (max-width:991px) {
+    .block1-head {
+        width: 43%;
+        padding: 45px;
+        text-align: center;
+        margin: auto;
+    }
+    .block2-head {
+        font-size: 20px;
+    }
+    .block2-p {
+        font-size: 18px;
+    }
+    .block1-container {
+        width: 380px;
+        margin: 30px auto ;
+    }
+
+    /*Start block4*/
+
+    .block4-head {
+        font-size: 20px;
+    }
+    .block4-head:after {
+        width: 59px;
+        height: 4px;
+    }
+    .form-group label {
+        font-size: 16px;
+    }
+    .form-control-input {
+        font-size: 14px;
+        height: 30px;
+    }
+    select.form-control-input {
+        height: calc(2.25rem + 0px) !important;
+    }
+
+    .form {
+        margin: 15px auto 30px;
+        padding: 10px 10px 1px;
+    }
+    .form-call {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:767px) {
+    /*start block1*/
+
+    .block1 {
+        background: url("block1.1.png") no-repeat center;
+    }
+
+    .block1-head {
+        width: 53%;
+        padding: 40px;
+    }
+    .block2 {
+        position: relative;
+        background: #1d2228;
+        padding: 25px 0 20px;
+    }
+    .block2-head:before {
+        content: "";
+        width: 8px;
+    }
+    .block2-p {
+        margin-bottom: 20px;
+    }
+    /*start block4*/
+
+    .block4-head {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .block4-img {
+        width: 100%;
+        background: #a11e40;
+        margin: auto;
+        text-align: center;
+        
+    }
+    .block4 {
+        padding: 30px 0 40px;
+        background: #34393d;
+    }
+
+    .form-call {
+        font-size: 34px;
+        margin: 8px auto 20px;
+
+    }
+
+    .form {
+        margin: 0 auto ;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:576px) {
+    .block1 {
+        background: url("block1.1.png") no-repeat center;
+    }
+    .block1-head {
+        width: 72%;
+        margin: auto;
+        padding: 40px;
+    }
+
+    .block2 {
+        padding: 15px 0 1px;
+    }
+    .block2-head {
+        font-size: 5vw;
+        padding-right: 4vw;
+        margin: 0 auto 2vw;
+    }
+    .block2-p {
+        margin-bottom: 6vw;
+        font-size: 4.5vw;
+        padding-right: 4vw;
+    }
+    .block2-head:before {
+        content: "";
+        width: 2vw;
+        top: 1px;
+        height: 120%;
+    }
+    /*Start Block4*/
+    .form-call {
+        font-size: 3vw;
+        padding: 1px 0 12px;
+    }
+    .block4-head {
+        font-size: 5vw;
+        margin-bottom: 8vw;
+    }
+    .block4-img {
+        padding: 50px 0;
+        max-height: 70vw;
+    }
+    .block4-img img{
+        max-width: 50vw;
+
+    }
+    label{
+        font-size:12px !important;
+    }
+  
+    option{
+      font-size:12px ;  
+    }
+
+}
